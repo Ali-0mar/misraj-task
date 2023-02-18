@@ -1,0 +1,11 @@
+// General Style
+.btn{
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #202020;
+  color: #f9f9f9;
+  &:hover {
+    background-color: #4c4b4b;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,29 @@
+.main{
+  padding: 1rem;
+  margin: auto;
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #202020;
+    & tr {
+      box-shadow: 0px 1px #202020;
+    }
+    & th {
+      background-color: #bcbcbc;
+    }
+    & td {
+      text-align: center;
+      padding: 8px;
+      border-right: 1px solid;
+      &:first-child {
+        width: 5rem;
+      }
+    }
+  }
+
+}
+.btn-container {
+  text-align: center;
+  padding: 1rem;
+}
+
